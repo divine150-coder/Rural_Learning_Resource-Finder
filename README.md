@@ -1,3 +1,4 @@
+video link "https://youtu.be/ue756RC9pkc"
 # Rural Learning Resource Finder
 
 ## Description
@@ -13,5 +14,4 @@ A web app to help rural students discover educational books online using the **G
 ## Local Setup
 1. Clone the repo:
    ```bash
-   git clone https://github.com/divine150-coder/rural-learning-app.git
-
+   git clone https://github.com/divine150-coder/rural-learning-ap
