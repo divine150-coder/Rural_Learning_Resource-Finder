@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rural Learning Resource Finder</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Rural Learning Resource Finder</h1>
+    </header>
+    <div class="container">
+        <div class="search-bar">
+            <input type="text" id="searchInput" placeholder="Search for books by topic, subject, or grade">
+            <select id="filterAuthor">
+                <option value="">All Authors</option>
+            </select>
+            <button onclick="searchBooks()">Search</button>
+        </div>
+        <div id="books" class="books"></div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
